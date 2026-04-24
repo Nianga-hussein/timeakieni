@@ -520,7 +520,7 @@ function sendEmail(){
   body += `J'espère que tu vas bien.\n\n`;
   body += `Voici mon relevé d'heures (Timesheet) pour le mois d'Avril 2026.\n\n`;
   body += `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`;
-  body += `👤 COLLABORATEUR : ${selU}\n`;
+  body += `👤 COLLABORATEUs : ${selU}\n`;
   body += `📊 TOTAL DU MOIS : ${totMonth}h / 120h\n`;
   body += `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n`;
 
@@ -533,7 +533,7 @@ function sendEmail(){
   });
 
   body += `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`;
-  body += `🚀 Transmis via l'application Akieni Timesheet.\n`;
+  body += ` Transmis via l'application Akieni Timesheet.\n`;
   body += `Bonne réception,\n${selU.split(' ')[0]}`;
 
   const sub = `Timesheet Avril 2026 — ${selU}`;
